@@ -67,6 +67,13 @@ string findLargestSubstringRefactored(vector<string> arr)
     return largestPrefix;
 }
 
+//Big O analysis
+/* 
+for where n represents the size of the array
+while where m represents the size of the smallest or first word
+O(n*m)
+*/
+
 int main()
 {
     // el prefijo tiene que estar al inicio
